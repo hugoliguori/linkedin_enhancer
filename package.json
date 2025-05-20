@@ -1,7 +1,11 @@
 {
   "name": "agentai-mcp-server",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "start": "npx -y @agentai/mcp-server"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@agentai/mcp-server": "^0.0.19"
   }
 }
