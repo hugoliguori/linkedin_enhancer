@@ -2,7 +2,7 @@
   "name": "agentai-mcp-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "cross-env PORT=$PORT npx -y @agentai/mcp-server"
+    "start": "cross-env PORT=$PORT npx -y @agentai/mcp-server start --port $PORT"
   },
   "dependencies": {
     "cross-env": "^7.0.3"
