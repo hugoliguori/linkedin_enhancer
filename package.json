@@ -6,6 +6,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@agentai/mcp-server": "^0.0.19"
+    "@agentai/mcp-server": "git+https://github.com/agent-ai/mcp-server.git"
   }
 }
