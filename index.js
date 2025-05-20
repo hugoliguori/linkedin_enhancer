@@ -1,7 +1,12 @@
-import { createServer } from "@agentai/mcp-server";
+import express from 'express';
 
+const app = express();
 const PORT = process.env.PORT || 10000;
 
-createServer().listen(PORT, () => {
+app.get('/', (req, res) => {
+  res.send('✅ MCP Server is running!');
+});
+
+app.listen(PORT, () => {
   console.log(`✅ MCP Server is running on port ${PORT}`);
 });
