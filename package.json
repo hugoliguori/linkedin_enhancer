@@ -1,0 +1,7 @@
+{
+  "name": "agentai-mcp-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx -y @agentai/mcp-server"
+  }
+}
