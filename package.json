@@ -1,11 +1,11 @@
 {
-  "name": "agentai-mcp-server",
+  "name": "custom-mcp-server",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@agentai/mcp-server": "git+https://github.com/agent-ai/mcp-server.git"
+    "express": "^4.18.2"
   }
 }
